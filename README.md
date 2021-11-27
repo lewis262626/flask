@@ -5,6 +5,7 @@
 ```sh
 export FLASK_ENV=development
 export FLASK_APP=<file.py>
+export SECRET_KEY=$(openssl rand -base64 12)
 ```
 
 Then install the `requirements.txt`
